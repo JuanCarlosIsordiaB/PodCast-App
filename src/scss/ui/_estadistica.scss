@@ -1,0 +1,11 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+
+.estadisticas{
+
+    &__heading{
+        @include m.headingBorder(v.$secundario, v.$primario);
+    }
+    
+}
